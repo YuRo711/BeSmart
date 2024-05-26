@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Glades';
+    font-weight: 700;
+    src: url('fonts/NCAA\ FSU\ Noles\ Glades\ Bold.otf');
+}
+
+@font-face {
+    font-family: 'Pangolin';
+    font-weight: 400;
+    src: url('fonts/Pangolin-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 400;
+    src: url('fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 700;
+    src: url('fonts/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('fonts/Rubik-VariableFont_wght.ttf');
+}

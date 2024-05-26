@@ -1,0 +1,147 @@
+.cover {
+    position: relative;
+    padding: 0 0;
+}
+
+.cover__info {
+    max-width: 586px;
+    margin: 174px 0 0;
+}
+
+.cover__title {
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 69px;
+    font-weight: 700;
+    color: #050C26;
+}
+
+.cover__accent {
+    color: #FF7426;
+}
+
+.cover__text {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 171%;
+    color: #8A8A8A;
+    margin: 8px 0 0;
+}
+
+.cover__search {
+    margin: 50px 0 0;
+    height: 80px;
+    width: 568px;
+    background-color: #FFF;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 20px;
+    box-sizing: border-box;
+}
+
+.cover__input {
+    border: none;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #0F335E;
+    height: 60px;
+    width: 300px;
+    padding: 0 10px;
+}
+
+.cover__input::placeholder {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #0F335E;
+    opacity: 1;
+}
+
+.cover__search-button {
+    width: 158px;
+    height: 70px;
+    background-color: #4D2C5E;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #FFF;
+    border: none;
+    border-radius: 35px;
+    margin-left: auto;
+}
+
+.cover__image {
+    position: absolute;
+    left: 830px;
+    top: 141px;
+    z-index: 1;
+}
+
+.cover__circle {
+    position: absolute;
+    left: 1300px;
+    top: 50px;
+    z-index: 0;
+    border: solid 50px rgb(242, 201, 76, 0.2);
+    border-radius: 50%;
+    width: 408px;
+    height: 408px;
+}
+
+
+.cover__doodle {
+    position: absolute;
+}
+
+.cover__doodle:nth-of-type(2) {
+    left: 1220px;
+    top: 700px;
+}
+
+.cover__doodle:nth-of-type(3) {
+    left: 1280px;
+    top: 20px;
+}
+
+.cover__doodle:nth-of-type(4) {
+    left: 1050px;
+    top: 70px;
+}
+
+.cover__doodle:nth-of-type(5) {
+    left: 1800px;
+    top: 50px;
+}
+
+.cover__doodle:nth-of-type(6) {
+    left: 1750px;
+    top: 600px;
+}
+
+.cover__doodle:nth-of-type(7) {
+    left: 1850px;
+    top: 400px;
+}
+
+.cover__doodle:nth-of-type(8) {
+    left: 300px;
+    top: 580px;
+}
+
+.cover__doodle:nth-of-type(9) {
+    left: 600px;
+    top: 0;
+}
+
+.cover__doodle:nth-of-type(10) {
+    left: -80px;
+    top: 580px;
+}
+
+.cover__doodle:nth-of-type(11) {
+    left: -50px;
+    top: 50px;
+}

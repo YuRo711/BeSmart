@@ -39,4 +39,13 @@
     font-size: 25px;
     font-weight: 500;
     color: #FFF;
+    cursor: pointer;
+}
+
+.navigation__button:hover {
+    background-color: #3c2149;
+}
+
+.navigation__button:active {
+    background-color: #31193b;
 }

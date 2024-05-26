@@ -4,6 +4,7 @@
 @import url('../blocks/header.css');
 @import url('../blocks/navigation.css');
 @import url('../blocks/cover.css');
+@import url('../blocks/summary.css');
 
 html {
     scroll-behavior: smooth;

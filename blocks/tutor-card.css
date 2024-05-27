@@ -1,0 +1,23 @@
+.tutor-card {
+    width: 490px;
+    height: 457px;
+    background-color: #FFF;
+    border-radius: 14px;
+    box-shadow: 0 4px 25px rgb(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    padding: 14px 13px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.tutor-card__image {
+    max-height: 238px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+.tutor-card__info {
+    margin: 15px 0 0;
+}

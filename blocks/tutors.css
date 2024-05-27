@@ -1,0 +1,27 @@
+.tutors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 58px 0 0;
+}
+
+.tutors__title {
+    margin: 0;
+    font-family: 'Jost', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.tutors__subtitle {
+    margin: 10px 0 0;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #8A8A8A;
+}
+
+.tutors__cards {
+    display: flex;
+    gap: 30px;
+    margin: 65px 0 0;
+}

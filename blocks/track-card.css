@@ -46,6 +46,24 @@
     color: #FF7426;
 }
 
+.track-card__rating {
+    display: flex;
+    gap: 2px;
+    position: absolute;
+    top: 266px;
+    right: 13px;
+}
+
+.track-card__star {
+    background-image: url('../images/star.svg');
+    width: 16px;
+    height: 16px;
+}
+
+.track-card__star_empty {
+    background-image: url('../images/star\ empty.svg');
+}
+
 .track-card__stats {
     display: flex;
     gap: 14px;

@@ -1,0 +1,91 @@
+.track-card {
+    width: 490px;
+    height: 457px;
+    background-color: #FFF;
+    border-radius: 14px;
+    box-shadow: 0 4px 25px rgb(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    padding: 14px 13px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.track-card__image {
+    max-height: 238px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+.track-card__info {
+    border-bottom: dotted 1px #ACACAC;
+    padding: 14px 0;
+}
+
+.track-card__category {
+    margin: 0;
+    color: #ACACAC;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.track-card__title {
+    margin: 3px 0 0;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.track-card__price {
+    margin: 0;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FF7426;
+}
+
+.track-card__stats {
+    display: flex;
+    gap: 14px;
+    margin: 16px 0 0;
+    width: 100%;
+}
+
+.track-card__stat {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #ACACAC;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.track-card__button {
+    width: 207px;
+    height: 56px;
+    border-radius: 96px;
+    border: none;
+    background-color: #FF7426;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFF;
+    cursor: pointer;
+    margin: 0 auto;
+    position: relative;
+    top: 32px;
+    transition: scale 0.2s ease-in-out;
+}
+
+.track-card__button:hover {
+    scale: 1.05;
+    background-color: #ff7d32;
+}
+
+.track-card__button:active {
+    scale: 1;
+    background-color: #eb6417;
+}

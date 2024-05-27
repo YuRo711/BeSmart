@@ -5,6 +5,8 @@
 @import url('../blocks/navigation.css');
 @import url('../blocks/cover.css');
 @import url('../blocks/summary.css');
+@import url('../blocks/tracks.css');
+@import url('../blocks/track-card.css');
 
 html {
     scroll-behavior: smooth;

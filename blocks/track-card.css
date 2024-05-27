@@ -95,6 +95,7 @@
     margin: 0 auto;
     position: relative;
     top: 32px;
+    flex-shrink: 0;
     transition: scale 0.2s ease-in-out;
 }
 

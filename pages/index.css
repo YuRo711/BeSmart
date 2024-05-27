@@ -7,6 +7,7 @@
 @import url('../blocks/summary.css');
 @import url('../blocks/tracks.css');
 @import url('../blocks/track-card.css');
+@import url('../blocks/benefits.css');
 
 html {
     scroll-behavior: smooth;

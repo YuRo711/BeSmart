@@ -1,0 +1,51 @@
+.review-card {
+    width: 416px;
+    height: 255px;
+    background-color: #FFF;
+    box-shadow: 0 4px 88px rgb(0, 0, 0, 0.05);
+    padding: 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.review-card__text {
+    line-height: 156%;
+    color: #ACACAC;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.review-card__author {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.review-card__portrait {
+    width: 47px;
+    height: 47px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.review-card__name {
+    color: #353535;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 156%;
+    margin: 0;
+}
+
+.review-card__profession {
+    color: #8E8E8E;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 156%;
+    margin: 0;
+}

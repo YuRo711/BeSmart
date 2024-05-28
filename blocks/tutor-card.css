@@ -5,7 +5,7 @@
     border-radius: 14px;
     box-shadow: 0 4px 25px rgb(0, 0, 0, 0.1);
     box-sizing: border-box;
-    padding: 14px 13px;
+    padding: 14px 13px 19px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -20,4 +20,55 @@
 
 .tutor-card__info {
     margin: 15px 0 0;
+}
+
+.tutor-card__name {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.tutor-card__subtitle {
+    margin: 4px 0 0;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #868686;
+}
+
+.tutor-card__text {
+    margin: 25px 0 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ACACAC;
+}
+
+.tutor-card__footer {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+}
+
+.tutor-card__category {
+    color: #FF7426;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.tutor-card__icons {
+    margin-left: auto;
+    display: flex;
+    gap: 12px;
+}
+
+.tutor-card__button {
+    background-color: #F9F9F9;
+    width: 38px;
+    height: 38px;
+    border: none;
+    cursor: pointer;
 }

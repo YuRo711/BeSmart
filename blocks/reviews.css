@@ -39,6 +39,7 @@
     background-color: rgb(255, 116, 38, 0.1);
     filter: blur(254px);
     position: absolute;
+    z-index: 1;
 }
 
 .reviews__blur:nth-of-type(2) {

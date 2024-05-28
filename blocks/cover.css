@@ -71,6 +71,15 @@
     border: none;
     border-radius: 35px;
     margin-left: auto;
+    cursor: pointer;
+}
+
+.cover__search-button:hover {
+    background-color: #3c2149;
+}
+
+.cover__search-button:active {
+    background-color: #31193b;
 }
 
 .cover__image {

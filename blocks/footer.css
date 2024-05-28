@@ -1,0 +1,18 @@
+.footer {
+    background-color: #FDF8EE;
+    height: 411px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 31px 0;
+}
+
+.footer__copyright {
+    margin: 31px 0 0;
+    color: #606060;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+}
